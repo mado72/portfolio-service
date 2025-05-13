@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  portfolio-server:
+    image: portfolio-server:0.0.3-SNAPSHOT
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    networks:
+      - portfolio-network
+
+  portfolio-app:
+    image: portfolio-app:0.0.4-SNAPSHOT
+    build:
+      context: ../portfolio-app
+    ports:
+      - "80:80"
+    environment:
+      - API_URL=http://portfolio-server:3000
+    depends_on:
+      - portfolio-server
+    networks:
+      - portfolio-network
+
+networks:
+  portfolio-network:
+    driver: bridge
