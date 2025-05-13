@@ -6,7 +6,15 @@
             "name": "ng serve - App",
             "type": "chrome",
             "request": "launch",
-            "preLaunchTask": "npm: start:verbose - portfolio-app", // Corrigido
+            "preLaunchTask": "npm: start - portfolio-app", 
+            "url": "http://localhost:4200/",
+            "cwd": "${workspaceFolder}\\portfolio-app\\src"
+        },
+        {
+            "name": "ng verbose - App",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: start:verbose - portfolio-app", 
             "url": "http://localhost:4200/",
             "cwd": "${workspaceFolder}\\portfolio-app\\src"
         },
