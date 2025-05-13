@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start:verbose",
+			"path": "portfolio-app",
+			"problemMatcher": [],
+			"label": "npm: start:verbose - portfolio-app",
+			"detail": "ng serve --verbose --configuration development"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "portfolio-server",
+			"problemMatcher": [],
+			"label": "npm: start - portfolio-server",
+			"detail": "node ./src/index.js"
+		},
+		{
+			"type": "npm",
+			"script": "start:verbose",
+			"path": "portfolio-app",
+			"problemMatcher": [],
+			"label": "npm: start:verbose - portfolio-app",
+			"detail": "ng serve --verbose --configuration development"
+		}
+	]
+}
