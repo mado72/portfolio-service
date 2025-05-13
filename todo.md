@@ -1,0 +1,37 @@
+Todo list:
+ - [x] Adicionar função para acrescentar novos proventos
+ - [x] IMPLEMENTAR PESQUISA DE CAMBIO - 14/04/2025
+ - [x] Adicionar cotação no menu
+ - [x] Verificar se os proventos estão sendo armazenados em source
+ - [x] Corrigir investment service para obter os proventos para uma data.
+ - [x] Prover mecanismo para alterar o valor de mercado de um ativo manual
+ - [x] Refatorar para obter cotação de um asset adicionado.
+ - [x] Remover ativo de carteira.
+ - [x] Calcular corretamente um novo asset que entra no portfolio
+ - [x] Corrigir localização da data do formulário de transaction-form
+ - [x] Adicionar campo classe em portfolio (formulário)
+ - [x] Passar o nome do portfolio para o formulário de transaction
+ - [x] Filtrar por classe de portfolio
+ - [x] Filtrar transações por ticker, tipo e banco
+ - [x] Acrescentar banco na lista de transações
+ - [x] Acrescentar classe em portfolio
+ - [x] Calcular initial value entre transações diferentes.
+ - [x] Tornar os dados anualizáveis. A estrutura de dados deverá estar organizada por ano.
+ - [ ] Criar um novo banco de dados para cada ano.
+ - [x] Criar um novo cadastro: classes de portfólio. Com este cadastro será possível consolidar os resultados por classe de portfólio.
+ - [x] Adicionar filtro em consulta de transações
+ - [x] Adicionar filtro em consulta de ativos
+ - [x] Persistir retiradas e resgates
+ - [ ] Criar um novo cadastro: classes de portfólio. Com este cadastro será possível consolidar os resultados por classe de portfólio.
+ - [x] Adicionar gráfico de evolução de patrimônio
+ - [x] Adicionar gráfico de evolução de patrimônio por classe de portfólio
+ - [ ] Adicionar gráfico de evolução de patrimônio por ativo
+ - [ ] Adicionar gráfico de evolução de patrimônio por classe de ativo
+ - [x] Acrescentar serviço para atualizar criptoativos
+ - [x] Resolver visualização de exchange nos proventos
+ - [x] Acrescentar filtro por moeda em proventos
+ - [ ] Adicionar coluna para exibir totais de proventos por ativo por classe
+ - [x] BUG: Formulário de Contas não está preenchendo os campos corretamente
+ - [ ] BUG: Tabela de proventos não está somando as transações para uma célula
+ - [x] BUG: Corrigir tempo de espera para informar ativo da transação
+ - [x] BUG: Ordenar ativos no formulário de transações
